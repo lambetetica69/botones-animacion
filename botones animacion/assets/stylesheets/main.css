@@ -25,3 +25,25 @@ a {
     letter-spacing: 5px;
     overflow: hidden;
 }
+a:hover {
+    background: #03e9f4;
+    color: black;
+    box-shadow: 0 0 5px #03e9f4,
+                0 0 25px #03e9f4,
+                0 0 50px #03e9f4,
+                0 0 200px #03e9f4;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
+}
+
+a:nth-child(1) {
+    filter: hue-rotate(260deg);
+}
+
+a:nth-child(2) {
+    filter: hue-rotate(160deg);
+}
+
+a span {
+    position: absolute;
+    display: block;
+}
